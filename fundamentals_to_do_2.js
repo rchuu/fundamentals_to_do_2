@@ -6,15 +6,7 @@
 
 // Create a function that accepts a number as an input. Return a new array that counts down by one, from the number (as array’s ‘zeroth’ element) down to 0 (as the last element). How long is this array?
 
-// function countDown(num) {
-//     let arr = [];
-//     for (let i = num; i >= 0; i--) {
-//         arr.push(i);
-//     }
-//     console.log("Length of Array:" + " " + arr.length);
-//     return arr;
-// }
-// console.log(countDown(20));
+
 
 // console.log("hello");
 
@@ -27,7 +19,7 @@
 //          return (printAndReturn(num2));
 //      }
 //  }
-
+// printAndReturn([5,7]);
 
 
 
@@ -51,20 +43,6 @@
 
 // For [1,3,5,7,9,13], print values that are greater than its 2nd value. Return how many values this is.
 
-// arr = [1,3,5,7,9,13]
-// function greaterThanSecond(arr) {
-//     let count = 0;
-//     newArr = []
-//     for ( let i = 0; i < arr.length; i++ ) {
-//         if (arr[i] > arr[1]) {
-//             newArr.push(arr[i])
-//             count++;
-//         }
-//     }
-//     console.log(greaterThanSecond([1,3,5,7,9,13]));
-//     return newArr
-// }
-// console.log("hello");
 
 // function GreaterThanSecond(arr) {
 //     var count = 0;
@@ -91,12 +69,10 @@
 // Given two numbers, return array of length num1 with each value num2. Print "Jinx!" if they are same.
 
 
-
 // Fit the First Value
 
 // Your function should accept an array. If value at [0] is greater than array’s length, print "Too big!"; if value at [0] is less than array’s length, print "Too small!"; otherwise print "Just right!".
 
- 
 
 // Fahrenheit to Celsius
 
