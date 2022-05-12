@@ -37,7 +37,7 @@
 // }
 // console.log(firstPlusLength(arr));
 
- 
+
 
 // Values Greater than Second
 
@@ -62,7 +62,7 @@
 
 // Write a function that accepts any array, and returns a new array with the array values that are greater than its 2nd value. Print how many values this is. What will you do if the array is only one element long?
 
- 
+
 
 // This Length, That Value
 
@@ -73,6 +73,18 @@
 
 // Your function should accept an array. If value at [0] is greater than array’s length, print "Too big!"; if value at [0] is less than array’s length, print "Too small!"; otherwise print "Just right!".
 
+function fitFirstValue(arr) {
+    if (arr[0] > arr.length) {
+        console.log("too big!");
+    } else if (arr[0] < arr.length) {
+        console.log("too small!");
+    } else {
+        console.log("just right!");
+    }
+}
+fitFirstValue([1, 3, 5, 7, 9])
+fitFirstValue([6, 7, 8, 10, 11, 12])
+fitFirstValue([10, 3, 5, 7, 9])
 
 // Fahrenheit to Celsius
 
