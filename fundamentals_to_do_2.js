@@ -68,23 +68,34 @@
 
 // Given two numbers, return array of length num1 with each value num2. Print "Jinx!" if they are same.
 
+function lengthValue(num1, num2) {
+    let arr = []
+    if (num1 == num2) {
+        console.log("Jinx");
+    }
+    for (let i = 0; i < num1; i++) {
+        arr[i] = num2
+    }
+    return arr
+}
+console.log(lengthValue(5, 11));
 
 // Fit the First Value
 
 // Your function should accept an array. If value at [0] is greater than array’s length, print "Too big!"; if value at [0] is less than array’s length, print "Too small!"; otherwise print "Just right!".
 
-function fitFirstValue(arr) {
-    if (arr[0] > arr.length) {
-        console.log("too big!");
-    } else if (arr[0] < arr.length) {
-        console.log("too small!");
-    } else {
-        console.log("just right!");
-    }
-}
-fitFirstValue([1, 3, 5, 7, 9])
-fitFirstValue([6, 7, 8, 10, 11, 12])
-fitFirstValue([10, 3, 5, 7, 9])
+// function fitFirstValue(arr) {
+//     if (arr[0] > arr.length) {
+//         console.log("too big!");
+//     } else if (arr[0] < arr.length) {
+//         console.log("too small!");
+//     } else {
+//         console.log("just right!");
+//     }
+// }
+// fitFirstValue([1, 3, 5, 7, 9])
+// fitFirstValue([6, 7, 8, 10, 11, 12])
+// fitFirstValue([10, 3, 5, 7, 9])
 
 // Fahrenheit to Celsius
 
