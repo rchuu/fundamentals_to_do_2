@@ -109,10 +109,10 @@
 
 // (Optional): Do Fahrenheit and Celsius values equate at a certain number? The scientific calculation can be complex, so for this challenge just try a series of Celsius integer values starting at 200, going downward (descending), checking whether it is equal to the corresponding Fahrenheit value. -->
 
-function fToC(fDegrees) {
-    return ((fDegrees - 32) * 5) / 9;
-}
-console.log("F to C");
-console.log(fToC(5) + ' Celsius');
-console.log(fToC(10) + ' Celsius');
-console.log(fToC(53) + ' Celsius');
+// function fToC(fDegrees) {
+//     return ((fDegrees - 32) * 5) / 9;
+// }
+// console.log("F to C");
+// console.log(fToC(5) + ' Celsius');
+// console.log(fToC(10) + ' Celsius');
+// console.log(fToC(53) + ' Celsius');
